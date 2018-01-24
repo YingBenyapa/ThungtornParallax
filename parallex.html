@@ -12,6 +12,8 @@
 
 <body>
 
+    <h1>THUNGTORN</h1>
+
     <style>
         /* body,
         html {
@@ -43,6 +45,17 @@ element.style {
     transform: translate3d(100%, 0%, 0px);
     opacity: 0;
 } */
+.phon{
+    background:url(image/phon.png);
+    width: 512px;
+    height: 512px;
+    margin: 0 27% ;
+    z-index: 1;
+}
+h1{
+    background-size: 36;
+    background-color: orange;
+}
 #container {
     background-color:black;
     width:100%;   
@@ -57,9 +70,8 @@ div {position:fixed;}
   width:100%; 
   height:400px;
   margin: 100px 0px 100px 0px; 
- 
-
 }
+
     </style>
 
 
@@ -71,27 +83,35 @@ div {position:fixed;}
     </div>
 
     <div class="parallax"></div> -->
-    
+    <div class="phon"></div>
         <div class="bg skrollable skrollable-between " 
-        style="background-color:blue ; transform: translate3d(0%, 0%, 0px); opacity: 1;" 
+        style="background-color:white ; transform: translate3d(0%, 0%, 0px); opacity: 1;" 
         data-0="transform:translate3d(0%,0%,0); opacity:1" 
-        data-5000="transform:translate3d(-100%,0%,0); opacity:0">
-            <div style="background:url(image/hhhhh.jpg); width:200px ;height:200px; margin:100px 43%"> </div>
+        data-2000="transform:translate3d(-100%,0%,0); opacity:0">
         </div>
 
         <div class="bg skrollable skrollable-between" 
-        style="background-color:green; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
+        style="background-color:white; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
         data-0="transform:translate3d(100%,0%,0); opacity:0" 
-        data-5000="transform:translate3d(0%,0%,0);opacity:1" 
-        data-10000="transform:translate3d(-100%,0%,0);opacity:0">
-        <div style="background:url(image/Gift.jpg); width:200px ;height:200px; margin:100px 43%"> </div>
+        data-2000="transform:translate3d(0%,0%,0);opacity:1" 
+        data-4000="transform:translate3d(-100%,0%,0);opacity:0">
+        <div style="background:url(image/hhhhh.jpg); width:200px ;height:200px; margin:100px 39%"> </div>
+        </div>
+
+        <div class="bg skrollable skrollable-between" 
+        style="background-color:white; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
+        data-2000="transform:translate3d(100%,0%,0); opacity:0" 
+        data-4000="transform:translate3d(0%,0%,0);opacity:1" 
+        data-6000="transform:translate3d(-100%,0%,0);opacity:0">
+        <div style="background:url(image/Gift.jpg); width:200px ;height:200px; margin:100px 39%"> </div>
         </div>
         <div class="bg skrollable skrollable-before" 
-        style="background-color:yellow; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
-        data-5000="transform:translate3d(100%,0%,0); opacity:0" 
-        data-10000="transform:translate3d(0%,0%,0); opacity:1">
-        <div style="background:url(image/iioo.jpg); width:200px ;height:200px; margin:100px 43%"> </div>
+        style="background-color:white; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
+        data-4000="transform:translate3d(100%,0%,0); opacity:0" 
+        data-6000="transform:translate3d(0%,0%,0); opacity:1">
+        <div style="background:url(image/iioo.jpg); width:200px ;height:200px; margin:100px 39%"> </div>
         </div>
+    
     <script src="skrollr.min.js"></script>
     <script>
         var s= skrollr.init({
