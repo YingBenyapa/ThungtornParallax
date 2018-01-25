@@ -15,36 +15,6 @@
     <h1>THUNGTORN</h1>
 
     <style>
-        /* body,
-        html {
-            height: 100%;
-        }
-
-        .parallax {
-            background-image: url('yiuu.jpg');
-
-            height: 100%;
-
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        } */
-/* element.style {
-    background-color: red;
-    transform: translate3d(0%, 0%, 0px);
-    opacity: 1;
-}
-element.style {
-    background-color: green;
-    transform: translate3d(100%, 0%, 0px);
-    opacity: 0;
-}
-element.style {
-    background-color: orange;
-    transform: translate3d(100%, 0%, 0px);
-    opacity: 0;
-} */
 .phon{
     background:url(image/phon.png);
     width: 512px;
@@ -74,16 +44,11 @@ div {position:fixed;}
 
     </style>
 
+        <div style="background:url(image/phon.png); width:512px ;height:512px; margin:60px 32%; z-index:1;"
+        style="transform: translate3d(0%,100%,0); transform:rotateZ(90deg); opacity:0;"
+        data-0="transform: translate3d(0%,100%,0);  transform:rotateZ(90deg); opacity:0"
+        data-1500="transform:translate3d(0%,0%,0);  transform:rotateZ(0deg); opacity:1"> </div>
 
-    <!-- <div class="parallax"></div>
-
-    <div style="height:500px;background-color:red;font-size:36px">
-        Scroll Up and Down this page to see the parallax scrolling effect. This div is just here to enable scrolling. Tip: Try to
-        remove the background-attachment property to remove the scrolling effect.
-    </div>
-
-    <div class="parallax"></div> -->
-    <div class="phon"></div>
         <div class="bg skrollable skrollable-between " 
         style="background-color:white ; transform: translate3d(0%, 0%, 0px); opacity: 1;" 
         data-0="transform:translate3d(0%,0%,0); opacity:1" 
@@ -109,7 +74,7 @@ div {position:fixed;}
         style="background-color:white; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
         data-4000="transform:translate3d(100%,0%,0); opacity:0" 
         data-6000="transform:translate3d(0%,0%,0); opacity:1">
-        <div style="background:url(image/iioo.jpg); width:200px ;height:200px; margin:100px 39%"> </div>
+        <div style="background:url(image/iioo.jpg); width:200px ;height:200px; margin:100px 42%"> </div>
         </div>
     
     <script src="skrollr.min.js"></script>
