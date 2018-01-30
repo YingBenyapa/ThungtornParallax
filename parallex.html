@@ -7,139 +7,129 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Document</title>
+    <style>
+        body {
+            font-family: Cookit Regular;
+            position: 0px;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
 
+        }
+
+        .phon {
+            background: url(image/phon.png);
+            width: 512px;
+            height: 512px;
+            margin: 0 27%;
+            z-index: 1;
+        }
+
+        h1 {
+
+            font-size: 50px;
+            font-style: inherit;
+            color: blanchedalmond;
+            text-align: center;
+        }
+
+        #name {
+            background-color: #fa8072;
+            width: 100%;
+        }
+
+        #end {
+            background-color: #fda09f;
+            color: #fa8909;
+            font-family: fantasy;
+            font-size: 120px;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        #container {
+            background-color: black;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+
+        }
+
+        div {
+            position: fixed;
+            text-align: center;
+        }
+
+
+        .bg {
+            width: 50%;
+            height: 400px;
+            margin: 100px 0px 100px 0px;
+        }
+    </style>
 </head>
 
 <body>
 
-   <div id="name"  
-   style="transform: translate3d(0%,0%,0); opacity:1;"
-   data-0="transform:translate3d(0%,0%,0);opacity:1"
-   data-2000="transform:translate3d(0%,-100%,0); opacity:0">
-     <h1>THUNGTORN</h1> 
+    <div id="name" style="transform: translate3d(0%,0%,0); opacity:1;" data-0="transform:translate3d(0%,0%,0);opacity:1" data-2000="transform:translate3d(0%,-100%,0); opacity:0">
+        <h1>THUNGTORN</h1>
     </div>
 
-    <style>
-body{  
-    position: 0px;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-
-}
-
-.phon{
-    background:url(image/phon.png);
-    width: 512px;
-    height: 512px;
-    margin: 0 27% ;
-    z-index: 1;
-}
-h1{
-  
-    font-size: 36px;
-    font-style:inherit;
-    color: blanchedalmond;
-    text-align: center;
-}
-#name{
-    background-color: #fa8072;
-    width: 100%;
-}
-#end{
-    background-color: #fa8988;
-    color: #fa8900;
-    font-family:fantasy;
-    font-size: 120px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-
-}
-#container {
-    background-color:black;
-    width:100%;   
-    height:400px;
-    overflow:hidden;
-
-}
-div {position:fixed;
-    text-align: center;}
 
 
-.bg {
-  width:50%; 
-  height:400px;
-  margin: 100px 0px 100px 0px; 
-}
-
-    </style>
-
-        <div style="background:url(image/t.jpg); width:210px ;height:210px; margin:350px 43%; z-index:1;"
-        style="transform: translate3d(0%,100%,0); opacity:0;"
-        data-0="transform:translate3d(0%,100%,0);opacity:0"
+    <div style="background:url(image/table2.jpg); width:200px ;height:200px; margin:350px 43%; z-index:1;" 
+    style="transform:translate3d(0%,100%,0); opacity:0;"
+        data-0="transform:translate3d(0%,100%,0); opacity:0" 
         data-2000="transform:translate3d(0%,0%,0); opacity:1"
-        data-25000="transform:translate3d(0%,0%,0);opacity:1"
-        data-30000="transform:translate3d(0%,-100%,0);opacity:0"> </div>
+        data-25000="transform:translate3d(0%,0%,0); opacity:1"
+        data-30000="transform:translate3d(0%,-100%,0); opacity:0"> </div>
 
-        <div style="background:url(image/phon.png); width:512px ;height:512px; margin:60px 32%; z-index:1;"
-        style="transform: translate3d(0%,100%,0); transform:rotateZ(45deg); opacity:0;"
-        data-0="transform: translate3d(0%,100%,0);  transform:rotateZ(45deg); opacity:0"
-        data-2500="transform:translate3d(0%,0%,0);  transform:rotateZ(0deg); opacity:1"
-        data-25000="transform:translate3d(-110%,0%,0); transform:rotateZ(0deg); opacity:1"
-        data-30000="transform: translate3d(0%,-100%,0);  transform:rotateZ(45deg); opacity:0"> </div>
+    <div style="background:url(image/phon.png); width:512px ;height:512px; margin:60px 32%; z-index:1;" 
+    style="transform: translate3d(0%,100%,0); transform:rotateZ(45deg); opacity:0;"
+        data-0="transform: translate3d(0%,100%,0); opacity:0" 
+        data-2500="transform:translate3d(0%,0%,0); opacity:1"
+        data-25000="transform:translate3d(0%,0%,0); opacity:1" 
+        data-30000="transform: translate3d(0%,-100%,0); opacity:0">
+    </div>
 
-        <div class="bg skrollable skrollable-between " 
-        style="background-color:white ; transform: translate3d(110%, 0%, 0px); opacity: 1;" 
-        data-0="transform:translate3d(110%,0%,0); opacity:0" 
-        data-5000="transform:translate3d(50%,0%,0);opacity:1"
-        data-10000="transform:translate3d(-110%,0%,0); opacity:0"
-        >
-        </div>
+    <div class="bg skrollable skrollable-between " style="background-color:white ; transform: translate3d(110%, 0%, 0px); opacity: 1;"
+        data-0="transform:translate3d(110%,0%,0); opacity:0" data-5000="transform:translate3d(50%,0%,0);opacity:1" data-10000="transform:translate3d(-110%,0%,0); opacity:0">
+    </div>
 
-        <div class="bg skrollable skrollable-between" 
-        style="background-color:red ; transform: translate3d(110%, 0%, 0px); opacity: 0;" 
-        data-5000="transform:translate3d(110%,0%,0); opacity:0" 
-        data-10000="transform:translate3d(50%,0%,0);opacity:1" 
-        data-15000="transform:translate3d(-110%,0%,0);opacity:0">
-        <div style="background:url(image/hhhhh.jpg); width:200px ;height:200px; margin:100px 37%"> </div>
-        </div>
+    <div class="bg skrollable skrollable-between" style="background-color:red ; transform: translate3d(110%, 0%, 0px); opacity: 0;"
+        data-5000="transform:translate3d(110%,0%,0); opacity:0" data-10000="transform:translate3d(50%,0%,0);opacity:1" data-15000="transform:translate3d(-110%,0%,0);opacity:0">
+        <div style="background:url(image/woter.png); z-index:1; width:256px ;height:256px; margin:100px 37%"> </div>
+    </div>
 
-        <div class="bg skrollable skrollable-between" 
-        style="background-color:green; transform: translate3d(100%, 0%, 0px); opacity: 0;" 
-        data-10000="transform:translate3d(110%,0%,0); opacity: 0" 
-        data-15000="transform:translate3d(50%,0%,0); opacity: 1" 
-        data-20000="transform:translate3d(-110%,0%,0); opacity: 0">
-        <div style="background:url(image/Gift.jpg); width:200px ;height:200px; margin:100px 39%"> </div>
-        </div>
+    <div class="bg skrollable skrollable-between" style="background-color:green; transform: translate3d(100%, 0%, 0px); opacity: 0;"
+        data-10000="transform:translate3d(110%,0%,0); opacity: 0" data-15000="transform:translate3d(50%,0%,0); opacity: 1" data-20000="transform:translate3d(-110%,0%,0); opacity: 0">
+        <div style="background:url(image/box.png); z-index:1 ;width:256px ;height:256px; margin:100px 39%"> </div>
+    </div>
 
-        <div class="bg skrollable skrollable-before" 
-        style="background-color:blue; transform: translate3d(110%, 0%, 0px); opacity: 0;" 
-        data-15000="transform:translate3d(110%,0%,0); opacity:0" 
-        data-20000="transform:translate3d(50%,0%,0); opacity:1"
-        data-25000="transform:translate3d(-110%,0%,0);opacity:0">
-        <div style="background:url(image/iioo.jpg); width:200px ;height:200px; margin:100px 43%"> </div>
-        </div>
+    <div class="bg skrollable skrollable-before" style="background-color:blue; transform: translate3d(110%, 0%, 0px); opacity: 0;"
+        data-15000="transform:translate3d(110%,0%,0); opacity:0" data-20000="transform:translate3d(50%,0%,0); opacity:1" data-25000="transform:translate3d(-110%,0%,0);opacity:0">
+        <div style="background:url(image/kkook.png); z-index:1; width:256px ;height:256px; margin:100px 43%"> </div>
+    </div>
 
-        <div id="end" 
-        style="transform: translate3d(50%,-100%,0); opacity:0;"
-        data-31000="transform:translate3d(50%,-100%,0);opacity:0"
+    <div id="end" style="transform: translate3d(50%,-100%,0); opacity:0;" data-31000="transform:translate3d(50%,-100%,0);opacity:0"
         data-34000="transform:translate3d(0%,0%,0); opacity:1">
-            <p style="margin:200px">ThangTorn</p>
-        </div>
-    
+        <p style="margin:200px">ThangTorn</p>
+    </div>
+
     <script src="skrollr.min.js"></script>
     <script>
-        var s= skrollr.init({
-            edgeStrategy:'set',
-            easing:{
+        var s = skrollr.init({
+            edgeStrategy: 'set',
+            easing: {
                 WTF: Math.random,
-                inverted:function(p){
-                    return 1-p;
+                inverted: function (p) {
+                    return 1 - p;
                 }
             }
         });
-    </script>        
+    </script>
 </body>
 
 </html>
