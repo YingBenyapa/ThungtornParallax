@@ -1,27 +1,62 @@
-#container {
-    background-color:black;
-    width:100%;   
-    height:300px;
-    overflow:hidden;
+body {
+    font-family: Cookit Regular;
+    position: 0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+    
 }
-div {position:fixed;}
+
+.phon {
+    background: url(image/phon.png);
+    width: 512px;
+    height: 512px;
+    margin: 0 27%;
+    z-index: 1;
+}
+
+h1 {
+
+    font-size: 50px;
+    font-style: inherit;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+#name {
+    background-color: #ff584f;
+    width: 100%;
+}
+
+.end {
+    background-color: #ff584f;
+    color:white;
+    font-family: fantasy;
+    font-size: 120px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+
+}
+
+#container {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+div {
+    position: fixed;
+    text-align: center;
+}
+
 
 .bg {
-  width:100%; 
-  height:300px; 
-   }
-
-body, html {
-    height: 100%;
-}
-
-.parallax {
-    background-image: url('yiuu.jpg');
-
-    height: 100%; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 50%;
+    height: 400px;
+    margin: 100px 0px 100px 0px;
 }

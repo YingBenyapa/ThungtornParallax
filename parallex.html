@@ -3,18 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0ม minimum-scale=1, maximum-scale=5.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+    <title>TungTorn</title>
+
     <style>
         body {
+            text-align: center;
             font-family: Cookit Regular;
             position: 0px;
             padding: 0px;
             border: 0px;
             margin: 0px;
 
+
+            
         }
 
         .phon {
@@ -34,15 +38,15 @@
         }
 
         #name {
-            background-color: #fa8072;
+            background-color: #ff584f;
             width: 100%;
         }
 
         #end {
-            background-color: #fda09f;
-            color: #fa8909;
+            background-color: #ff584f;
+            color:white;
             font-family: fantasy;
-            font-size: 120px;
+            font-size: 100px;
             text-align: center;
             width: 100%;
             height: 100%;
@@ -69,6 +73,45 @@
             height: 400px;
             margin: 100px 0px 100px 0px;
         }
+        #box1{
+            width:43%; 
+            height:100%;
+            margin:130px 0%;
+        }
+        #box2{
+            width:50%; 
+            height:100%; 
+            margin:130px 58%;
+
+        }
+
+
+        #table{
+            width:461px ;
+            height:158px; 
+            margin:450px 35%;
+        }
+        #phon {
+            width:312px ;
+            height:562px; 
+            margin:60px 40%;
+        }
+        @media only screen and (max-width: 500px) {
+    #table{
+       margin: 450px 0px;
+    }
+    #phon{
+        margin: 60px 60px;
+    }
+    #box1 {
+        width:25%;
+        margin:32% 0% ;
+    }
+    #box2 {
+        width:30%;
+        margin:32% 80% ;
+    }
+}
     </style>
 </head>
 
@@ -77,23 +120,23 @@
     <div id="name" style="transform: translate3d(0%,0%,0); opacity:1;" 
     data-0="transform:translate3d(0%,0%,0);opacity:1" 
     data-2000="transform:translate3d(0%,-100%,0); opacity:0">
-        <h1>THUNGTORN</h1>
+        <h1>TUNGTON</h1>
     </div>
 
-    <div style="background-color:white; width:43%; height:100%; margin:130px 0%; z-index:1"></div>
-    <div style="background-color:white; width:43%; height:100%; margin:130px 60%; z-index:1"></div>
-    <div style="background-color:#fa8072 ; width:100%; height:100%; margin:555px 0%; z-index:1"></div>
+    <div id="box1" style="background-color:white;  z-index:1"></div>
+    <div id="box2" style="background-color:white;  z-index:1"></div>
+    <div style="background-color:#ff584f ; width:100%; height:100%; margin:555px 0%; z-index:1"></div>
 
 
 
-    <div style="background:url(image/tablr3.png); width:461px ;height:158px; margin:450px 35%;" 
+    <div id="table" style="background:url(image/tablr3.png); " 
     style="transform:translate3d(0%,100%,0); opacity:1;"
         data-0="transform:translate3d(0%,100%,0); opacity:1" 
         data-2000="transform:translate3d(0%,0%,0); opacity:1"
         data-20000="transform:translate3d(0%,0%,0); opacity:1"
         data-23000="transform:translate3d(0%,-100%,0); opacity:0"> </div>
 
-    <div style="background:url(image/phon.png); width:312px ;height:562px; margin:60px 40%; z-index:1;" 
+    <div id="phon" style="background:url(image/phon.png); z-index:1;" 
     style="transform: translate3d(0%,100%,0); transform:rotateZ(45deg); opacity:0;"
         data-0="transform: translate3d(0%,100%,0); opacity:0" 
         data-2500="transform:translate3d(0%,0%,0); opacity:1"
@@ -118,7 +161,7 @@
 
     <div class="bg skrollable skrollable-between" 
     style="transform: translate3d(100%, 0%, 0px); opacity: 0;"
-        data-7000="transform:translate3d(110%,0%,0); opacity: 0" 
+        data-10000="transform:translate3d(110%,0%,0); opacity: 0" 
         data-15000="transform:translate3d(50%,0%,0); opacity: 1"
         data-17000="transform:translate3d(-110%,0%,0); opacity: 0">
         <div style="background:url(image/up2.png); z-index:1 ;width:159px ;height:255px; margin:160px 39%"> </div>
@@ -126,7 +169,7 @@
 
     <div class="bg skrollable skrollable-before" 
     style=" transform: translate3d(110%, 0%, 0px); opacity: 0;"
-        data-17000="transform:translate3d(110%,0%,0); opacity: 0" 
+        data-15000="transform:translate3d(110%,0%,0); opacity: 0" 
         data-19000="transform:translate3d(50%,0%,0); opacity: 1" 
         data-20000="transform:translate3d(-110%,0%,0);opacity: 0">
         <div style="background:url(image/up3.png); z-index:1; width:156px ;height:248px; margin:150px 43%"> </div>
@@ -135,7 +178,7 @@
     <div id="end" style="transform: translate3d(0%,-100%,0); opacity:0;" 
     data-22000="transform:translate3d(0%,-100%,0);opacity:0"
         data-25000="transform:translate3d(0%,0%,0); opacity:1">
-        <p style="margin:200px">ThangTorn</p>
+        <p style="margin:aurto">TUNGTON</p>
     </div>
 
     <script src="skrollr.min.js"></script>
